@@ -1,0 +1,43 @@
+/* Importando as três fontes */
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;600&family=Orbitron:wght@400;600&family=Geocode:wght@400;500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* Fonte padrão para textos */
+  font-family: 'Geocode', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #0a0a0a;
+
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+/* Titulos e page-titles */
+h1, h2, h3, h4, h5, h6,
+.page-title,
+.hero-title {
+  font-family: 'Orbitron', sans-serif;
+}
+
+/* Botões, inputs, e elementos de código (opcional) */
+button,
+input,
+textarea,
+code {
+  font-family: 'JetBrains Mono', monospace;
+}

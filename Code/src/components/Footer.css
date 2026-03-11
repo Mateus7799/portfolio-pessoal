@@ -1,0 +1,127 @@
+.footer {
+  background-color: rgba(15, 15, 15, 0.85);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  color: #a0a0a0;
+  padding: 1rem 0;
+  margin-top: auto;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+
+.footer .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  gap: 1rem;
+}
+
+.contact-info h3,
+.social-links h3 {
+  color: #fff;
+  margin-bottom: 0.75rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.contact-links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.contact-link {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  color: #a0a0a0;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  padding: 0.5rem;
+  border-radius: 6px;
+}
+
+.contact-link:hover {
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.05);
+  transform: translateX(4px);
+}
+
+.contact-link svg {
+  flex-shrink: 0;
+}
+
+.social-icons {
+  display: flex;
+  gap: 1rem;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  color: #a0a0a0;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  padding: 0.5rem;
+  border-radius: 6px;
+}
+
+.social-link:hover {
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.05);
+  transform: translateY(-2px);
+}
+
+.social-link svg {
+  flex-shrink: 0;
+}
+
+@media (max-width: 768px) {
+  .footer .container {
+    padding: 0 1rem;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+  }
+
+  .contact-info h3,
+  .social-links h3 {
+    font-size: 1rem;
+  }
+
+  .contact-links {
+    align-items: center;
+  }
+
+  .social-icons {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .contact-link,
+  .social-link {
+    font-size: 0.9rem;
+  }
+
+  .contact-link:hover,
+  .social-link:hover {
+    transform: scale(1.05);
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-link span,
+  .social-link span {
+    font-size: 0.85rem;
+  }
+}
