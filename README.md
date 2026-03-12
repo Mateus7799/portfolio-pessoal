@@ -6,17 +6,18 @@
 
 ## 🚧 Status do Projeto
 
-![Status](https://img.shields.io/badge/status-em%20desenvolvimento%20ativo-yellow)
+![Status](https://img.shields.io/badge/status-Finalizado-green)
 ![Versão](https://img.shields.io/badge/versão-0.4-blue)
 ![Licença](https://img.shields.io/badge/licença-MIT-green)
 ![Funcionalidades implementadas](https://img.shields.io/badge/funcionalidades-100%25-lightgrey)
+[![GitHub repo size](https://img.shields.io/github/repo-size/Mateus7799/portfolio-profissional?style=for-the-badge)](https://github.com/Mateus7799/portfolio-profissional)
 
 ---
 
 ## 📚 Índice
+- [Sobre o Projeto](#sobre-o-projeto)
 - [Wireframe](#-wireframe)
 - [Protótipo](#-protótipo)
-- [Sobre o Projeto](#sobre-o-projeto)
 - [Funcionalidades](#-funcionalidades)
 - [Autores](#-autores)
 - [Tecnologias Utilizadas](#-tecnologias)
@@ -25,32 +26,6 @@
 - [Como Executar](#-como-executar)
 
 
----
-
-## 🔗 Wireframe
-
-- 🎨 Figma: https://www.figma.com/design/FGR596awWqFuYUBk3jcczj/Portfolio
-
----
-
----
-
-## 🌐 Link do Site
-
-O portfólio está disponível online:  
-[🌟 Acesse o site rodando no Vercel](portfolio-mateus-azevedo.vercel.app)
-
-## 📷 Protótipo
-
-- **Home:**  
-  ![Home](Artefatos/Imagens/home-prototipo.png)
-
-- **Sobre:**  
-  ![Sobre](Artefatos/Imagens/sobre-prototipo.png)
-
-- **Projetos:**  
-  ![Projetos](Artefatos/Imagens/projetos-prototipo.png)
-  
 ---
 
 ## 📝 Sobre o Projeto
@@ -67,16 +42,43 @@ A aplicação apresenta uma estrutura moderna e reutilizável para exibição de
 
 ---
 
+
+## 🔗 Wireframe
+
+- 🎨 Figma: https://www.figma.com/design/FGR596awWqFuYUBk3jcczj/Portfolio
+
+---
+
+## 📷 Protótipo
+
+- **Home:**  
+  ![Home](Artefatos/Imagens/home-prototipo.png)
+
+- **Sobre:**  
+  ![Sobre](Artefatos/Imagens/sobre-prototipo.png)
+
+- **Projetos:**  
+  ![Projetos](Artefatos/Imagens/projetos-prototipo.png)
+  
+---
+
 ## ✨ Funcionalidades
 
-- 🏠 Página inicial com introdução do autor  
-- 👤 Página **Sobre Mim** com descrição detalhada (PT/EN)  
-- 💻 Exibição de habilidades  
-- 📁 Projetos exibidos em formato de cards com descrição e tecnologias utilizadas
-- 🔗 Links para repositórios  
-- 📩 Área de contato (estrutura inicial)  
-- 📄 Header e Footer padronizados  
+- 🌐 **Visualização de Projetos:** Navegação por cards com descrições, tecnologias utilizadas e links para repositórios.  
+- 📄 **Documentação Integrada:** Instruções de instalação, execução e deploy diretamente no projeto.  
+- 🖌️ **Design Responsivo:** Layout adaptável para diferentes tamanhos de tela (desktop, tablet e mobile).  
+- ⚡ **Interatividade:** Transições suaves, animações e elementos dinâmicos para melhor experiência do usuário.  
 
+- 🏠 **Página Inicial:** Introdução ao autor e boas-vindas.  
+- 👤 **Sobre Mim:** Descrição detalhada sobre habilidades, trajetória e interesses.  
+- 💼 **Experiências:** Registro de experiências acadêmicas e profissionais.  
+- 🌍 **Idioma:** Opção de leitura em Português e Inglês.  
+- 💻 **Habilidades:** Exibição das principais competências técnicas.  
+- 📁 **Projetos:** Cards com detalhes, tecnologias e links para repositórios.  
+- 🔗 **Links Úteis:** Acesso direto a GitHub, Vercel e outros perfis.  
+- 📩 **Contato:** Área inicial para envio de mensagens via EmailJS.  
+- 📄 **Header e Footer Padronizados:** Consistência visual em todas as páginas.
+  
 ---
 
 ## 👨‍💻 Autores
@@ -87,8 +89,6 @@ A aplicação apresenta uma estrutura moderna e reutilizável para exibição de
 - Matheus Dias Mendes
   
 ---
-
-## 🛠 Tecnologias
 
 **Frontend:**
 
@@ -212,7 +212,7 @@ portfolio-app/
 - **Projetos:** Listagem dos projetos desenvolvidos
 - **PDF:** Geração do PDF com informações do portfólio
 - **Header:** Navegação entre páginas  
-- **Footer:** Contato e links adicionais  
+- **Footer:** Contato e links adicionais 
 
 ---
 
