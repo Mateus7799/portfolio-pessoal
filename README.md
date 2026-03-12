@@ -1,4 +1,4 @@
-# 🏷️ Portfólio Profissional 
+# 🏷️ Portfólio Pessoal 
 
 > Projeto acadêmico desenvolvido para a disciplina de **Laboratório de Desenvolvimento de Software**, com o objetivo de criar um portfólio web reutilizável.
 
@@ -6,17 +6,18 @@
 
 ## 🚧 Status do Projeto
 
-![Status](https://img.shields.io/badge/status-em%20desenvolvimento%20ativo-yellow)
-![Versão](https://img.shields.io/badge/versão-0.2-blue)
+![Status](https://img.shields.io/badge/status-Finalizado-green)
+![Versão](https://img.shields.io/badge/versão-0.4-blue)
 ![Licença](https://img.shields.io/badge/licença-MIT-green)
-![Funcionalidades implementadas](https://img.shields.io/badge/funcionalidades-50%25-lightgrey)
+![Funcionalidades implementadas](https://img.shields.io/badge/funcionalidades-100%25-lightgrey)
+[![GitHub repo size](https://img.shields.io/github/repo-size/Mateus7799/portfolio-profissional?style=for-the-badge)](https://github.com/Mateus7799/portfolio-profissional)
 
 ---
 
 ## 📚 Índice
+- [Sobre o Projeto](#sobre-o-projeto)
 - [Wireframe](#-wireframe)
 - [Protótipo](#-protótipo)
-- [Sobre o Projeto](#sobre-o-projeto)
 - [Funcionalidades](#-funcionalidades)
 - [Autores](#-autores)
 - [Tecnologias Utilizadas](#-tecnologias)
@@ -26,6 +27,21 @@
 
 
 ---
+
+## 📝 Sobre o Projeto
+
+Portfólio web profissional desenvolvido como projeto acadêmico para a disciplina **Laboratório de Desenvolvimento de Software**.  
+A aplicação apresenta uma estrutura moderna e reutilizável para exibição de informações profissionais, projetos e habilidades.  
+
+**Principais características:**
+
+- Suporte a múltiplos idiomas (Português e Inglês)  
+- Geração de PDF com os dados do portfólio  
+- Design moderno com backgrounds 3D interativos  
+- Estrutura escalável e organizada para fácil manutenção e personalização  
+
+---
+
 
 ## 🔗 Wireframe
 
@@ -46,30 +62,23 @@
   
 ---
 
-## 📝 Sobre o Projeto
-
-Portfólio web profissional desenvolvido como projeto acadêmico para a disciplina **Laboratório de Desenvolvimento de Software**.  
-A aplicação apresenta uma estrutura moderna e reutilizável para exibição de informações profissionais, projetos e habilidades.  
-
-**Principais características:**
-
-- Suporte a múltiplos idiomas (Português e Inglês)  
-- Geração de PDF com os dados do portfólio  
-- Design moderno com backgrounds 3D interativos  
-- Estrutura escalável e organizada para fácil manutenção e personalização  
-
----
-
 ## ✨ Funcionalidades
 
-- 🏠 Página inicial com introdução do autor  
-- 👤 Página **Sobre Mim** com descrição detalhada (PT/EN)  
-- 💻 Exibição de habilidades  
-- 📁 Projetos exibidos em formato de cards com descrição e tecnologias utilizadas
-- 🔗 Links para repositórios  
-- 📩 Área de contato (estrutura inicial)  
-- 📄 Header e Footer padronizados  
+- 🌐 **Visualização de Projetos:** Navegação por cards com descrições, tecnologias utilizadas e links para repositórios.  
+- 📄 **Documentação Integrada:** Instruções de instalação, execução e deploy diretamente no projeto.  
+- 🖌️ **Design Responsivo:** Layout adaptável para diferentes tamanhos de tela (desktop, tablet e mobile).  
+- ⚡ **Interatividade:** Transições suaves, animações e elementos dinâmicos para melhor experiência do usuário.  
 
+- 🏠 **Página Inicial:** Introdução ao autor e boas-vindas.  
+- 👤 **Sobre Mim:** Descrição detalhada sobre habilidades, trajetória e interesses.  
+- 💼 **Experiências:** Registro de experiências acadêmicas e profissionais.  
+- 🌍 **Idioma:** Opção de leitura em Português e Inglês.  
+- 💻 **Habilidades:** Exibição das principais competências técnicas.  
+- 📁 **Projetos:** Cards com detalhes, tecnologias e links para repositórios.  
+- 🔗 **Links Úteis:** Acesso direto a GitHub, Vercel e outros perfis.  
+- 📩 **Contato:** Área inicial para envio de mensagens via EmailJS.  
+- 📄 **Header e Footer Padronizados:** Consistência visual em todas as páginas.
+  
 ---
 
 ## 👨‍💻 Autores
@@ -81,84 +90,119 @@ A aplicação apresenta uma estrutura moderna e reutilizável para exibição de
   
 ---
 
-## 🛠 Tecnologias
-
 **Frontend:**
 
-- React 19.2.0 – Biblioteca JavaScript para construção de interfaces  
-- React Router DOM 7.13.1 – Gerenciamento de rotas e navegação entre páginas  
-- React i18next 16.5.4 – Suporte a internacionalização (PT/EN)  
-- Vite 7.3.1 – Ferramenta de build e servidor de desenvolvimento  
+- React 19.2.0 – Biblioteca JavaScript para construção de interfaces
+- React Router DOM 7.13.1 – Gerenciamento de rotas e navegação entre páginas
+- React i18next 16.5.4 – Suporte a internacionalização (PT/EN)
+- i18next 25.8.14 – Framework de internacionalização
+- Vite 7.3.1 – Ferramenta de build e servidor de desenvolvimento
 
 **Bibliotecas:**
 
-- jsPDF 4.2.0 – Geração de documentos PDF do portfólio  
-- @splinetool/react-spline 4.1.0 – Criação de backgrounds 3D interativos  
+- jsPDF 4.2.0 – Geração de documentos PDF do portfólio
+- @splinetool/react-spline 4.1.0 – Criação de backgrounds 3D interativos
+- @emailjs/browser 4.4.1 – Integração com EmailJS para envio de emails
 
-**Dev Tools:**
 
-- ESLint 9.39.1 – Linter para padronização e qualidade de código  
-- @vitejs/plugin-react 5.1.1 – Plugin React para integração com Vite  
+**Fontes:**
+
+- Exo 2 – Fonte para títulos e cabeçalhos
+- Geocode – Fonte para textos gerais
+- JetBrains Mono – Fonte para elementos de código e botões
+
+---
+
+## 🔌 APIs Utilizadas
+
+- **GitHub API:** lista repositórios, obtém linguagens e descrições, ordena por data  
+- **EmailJS:** envio de mensagens do formulário de contato  
+- **Spline Design:** backgrounds 3D interativos  
+- **GitHub OpenGraph API:** gera thumbnails automáticas dos projetos  
 
 ---
 
 ## 📁 Estrutura do Projeto
 
-```portfolio-app/
-├── public/                    # Arquivos estáticos públicos
-│   └── vite.svg              # Logo do Vite
-├── src/                      # Código-fonte principal
-│   ├── assets/               # Recursos estáticos
-│   │   ├── css/             # Folhas de estilo
-│   │   │   ├── App.css
-│   │   │   ├── Home.css
-│   │   │   ├── Sobre.css
-│   │   │   ├── Projetos.css
-│   │   │   ├── PDF.css
-│   │   │   └── index.css
-│   │   └── img/             # Imagens
-│   │       ├── react.svg
-│   │       └── user.png
-│   ├── components/          # Componentes reutilizáveis
-│   │   ├── Header.jsx       # Barra de navegação
-│   │   ├── Header.css
-│   │   ├── Footer.jsx       # Rodapé com contatos
-│   │   ├── Footer.css
-│   │   ├── Layout.jsx       # Layout principal
-│   │   ├── Layout.css
-│   │   ├── SplineBackground.jsx  # Fundo 3D interativo
-│   │   └── SplineBackground.css
-│   ├── pages/               # Páginas da aplicação
-│   │   ├── Home.jsx         # Página inicial
-│   │   ├── Home.css
-│   │   ├── Sobre.jsx        # Página sobre (PT/EN)
-│   │   ├── Sobre.css
-│   │   ├── Projetos.jsx     # Listagem de projetos
-│   │   ├── Projetos.css
-│   │   ├── PDF.jsx          # Geração de PDF
-│   │   ├── PDF.css
-│   │   ├── Contato.jsx      # Formulário de contato
-│   │   └── Contato.css
-│   ├── data/                # Dados do portfólio
-│   │   └── portfolioData.js # Informações centralizadas
-│   ├── locales/             # Arquivos de tradução
-│   │   ├── pt.json          # Traduções português
-│   │   └── en.json          # Traduções inglês
-│   ├── App.jsx              # Componente raiz
-│   ├── App.css
-│   ├── main.jsx             # Ponto de entrada
-│   ├── index.css            # Estilos globais
-│   └── i18n.js              # Configuração i18next
-├── .env.example             # Exemplo de variáveis de ambiente
-├── .gitignore               # Arquivos ignorados pelo Git
-├── .hintrc                  # Configuração de hints
-├── eslint.config.js         # Configuração ESLint
-├── index.html               # HTML principal
-├── package.json             # Dependências do projeto
-├── package-lock.json        # Lock de dependências
-├── README.md                # Documentação do projeto
-└── vite.config.js           # Configuração Vite
-
+```
+portfolio-app/
+├── Artefatos/                      # Documentação e recursos do projeto
+│   ├── Imagens/                    # Imagens do protótipo
+│   │   ├── home-prototipo.png
+│   │   ├── sobre-prototipo.png
+│   │   └── projetos-prototipo.png
+│   └── Wireframes-Portfolio_V1.png # Wireframes do projeto
+│
+├── Code/                           # Código-fonte da aplicação
+│   ├── public/                     # Arquivos estáticos públicos
+│   │   └── vite.svg               # Logo do Vite
+│   │
+│   ├── src/                        # Código-fonte principal
+│   │   ├── assets/                # Recursos estáticos
+│   │   │   ├── css/              # Folhas de estilo organizadas
+│   │   │   │   ├── App.css
+│   │   │   │   ├── Contato.css
+│   │   │   │   ├── Experiencias.css
+│   │   │   │   ├── Home.css
+│   │   │   │   ├── Intro.css
+│   │   │   │   ├── PDF.css
+│   │   │   │   ├── Projetos.css
+│   │   │   │   ├── Sobre.css
+│   │   │   │   └── index.css
+│   │   │   └── img/              # Imagens da aplicação
+│   │   │       ├── react.svg
+│   │   │       └── user.png
+│   │   │
+│   │   ├── components/            # Componentes reutilizáveis
+│   │   │   ├── changeLanguage.jsx # Seletor de idioma
+│   │   │   ├── Footer.jsx         # Rodapé com contatos
+│   │   │   ├── Footer.css
+│   │   │   ├── Header.jsx         # Barra de navegação
+│   │   │   ├── Header.css
+│   │   │   ├── Intro.jsx          # Tela de introdução 3D
+│   │   │   ├── Layout.jsx         # Layout principal da aplicação
+│   │   │   ├── Layout.css
+│   │   │   ├── SplineBackground.jsx  # Fundo 3D interativo
+│   │   │   └── SplineBackground.css
+│   │   │
+│   │   ├── config/                # Configurações da aplicação
+│   │   │   └── emailJsConfig.js   # Configuração do EmailJS
+│   │   │
+│   │   ├── data/                  # Dados estruturados
+│   │   │   ├── experienciasData.js  # Dados de experiências
+│   │   │   └── portfolioData.js     # Dados principais do portfólio
+│   │   │
+│   │   ├── locales/               # Arquivos de tradução i18n
+│   │   │   ├── pt.json           # Traduções em português
+│   │   │   └── en.json           # Traduções em inglês
+│   │   │
+│   │   ├── pages/                 # Páginas da aplicação
+│   │   │   ├── Contato.jsx       # Formulário de contato
+│   │   │   ├── Experiências.jsx  # Página de experiências
+│   │   │   ├── Home.jsx          # Página inicial
+│   │   │   ├── PDF.jsx           # Geração e download de PDF
+│   │   │   ├── Projetos.jsx      # Listagem de projetos do GitHub
+│   │   │   └── Sobre.jsx         # Página sobre (PT/EN)
+│   │   │
+│   │   ├── App.jsx                # Componente raiz da aplicação
+│   │   ├── i18n.js                # Configuração i18next
+│   │   ├── main.jsx               # Ponto de entrada React
+│   │   └── index.css              # Estilos globais e variáveis CSS
+│   │
+│   ├── .env.example               # Exemplo de variáveis de ambiente
+│   ├── .gitignore                 # Arquivos ignorados pelo Git
+│   ├── .hintrc                    # Configuração de hints do navegador
+│   ├── eslint.config.js           # Configuração ESLint
+│   ├── index.html                 # HTML principal
+│   ├── package.json               # Dependências e scripts
+│   ├── package-lock.json          # Lock de dependências
+│   ├── README.md                  # Documentação do código
+│   └── vite.config.js             # Configuração Vite
+│
+├── .gitignore                      # Gitignore raiz
+├── package.json                    # Dependências globais
+├── package-lock.json               # Lock global
+└── README.md                       # Documentação principal do projeto
 ```
 
 ## 📐 Estrutura das Páginas
@@ -168,14 +212,25 @@ A aplicação apresenta uma estrutura moderna e reutilizável para exibição de
 - **Projetos:** Listagem dos projetos desenvolvidos
 - **PDF:** Geração do PDF com informações do portfólio
 - **Header:** Navegação entre páginas  
-- **Footer:** Contato e links adicionais  
+- **Footer:** Contato e links adicionais 
 
 ---
 
 ## 🚀 Como Executar
 
+### Pré-requisitos
+
+- Node.js (versão 16 ou superior)
+- npm ou yarn
+- Conta no EmailJS (para funcionalidade de contato)
+
+1. Instale as dependências:
 ```bash
 npm install @splinetool/react-spline jspdf @emailjs/browser
+```
+
+2. Execute o projeto:
+```bash
 npm run dev
 ```
 
