@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 import '../assets/css/PDF.css';
 import { portfolioData } from "../data/portfolioData";
 import { projetosData } from "../data/projetosData";
-import foto from '../assets/img/user.png';
+import foto from "../assets/img/user1.jpeg";
 
 function PDF() {
   const [isGenerating, setIsGenerating] = useState(false);
@@ -129,41 +129,46 @@ experiencias.forEach((exp) => {
       }
 
       // Projetos
-      doc.setFont('Exo 2', 'bold');
-      doc.setFontSize(18);
-      const projectsTitle = language === 'en' ? 'Projects' : 'Projetos';
-      doc.text(projectsTitle, marginLeft, yPosition);
-      yPosition += 12;
+doc.setFont('Exo 2', 'bold');
+doc.setFontSize(18);
+const projectsTitle = language === 'en' ? 'Projects' : 'Projetos';
+doc.text(projectsTitle, marginLeft, yPosition);
+yPosition += 12;
 
-      const projects = projetosData;
+const projects = projetosData;
 
-      projects.forEach((project, index) => {
-        if (yPosition > 230) {
-          doc.addPage();
-          yPosition = 20;
-        }
+projects.forEach((project, index) => {
+  if (yPosition > 230) {
+    doc.addPage();
+    yPosition = 20;
+  }
 
-        doc.setFont('Exo 2', 'bold');
-        doc.setFontSize(14);
-        doc.text(`${index + 1}. ${project.nome}`, marginLeft, yPosition);
-        yPosition += 8;
+  doc.setFont('Exo 2', 'bold');
+  doc.setFontSize(14);
 
-        doc.setFont('Geocode', 'normal');
-        doc.setFontSize(10);
-        const desc = project.descricao;
-        const descLines = doc.splitTextToSize(desc, contentWidth);
-        doc.text(descLines, marginLeft, yPosition);
-        yPosition += descLines.length * 6 + 5;
+  // Chaves baseadas na numeração do projeto
+  const projectNumber = index + 1;
+  const projectName = t(`projeto${projectNumber}-nome`, { lng: language });
+  doc.text(`${projectNumber}. ${projectName}`, marginLeft, yPosition);
+  yPosition += 8;
 
-        doc.setFont('Geocode', 'italic');
-        const tech = project.tecnologias.join(", ");
-        doc.text(`Tecnologia: ${tech}`, marginLeft, yPosition);
-        yPosition += 6;
+  doc.setFont('Geocode', 'normal');
+  doc.setFontSize(10);
 
-        doc.textWithLink('Link', marginLeft, yPosition, { url: project.link });
-        yPosition += 12;
-      });
+  const projectDesc = t(`projeto${projectNumber}-descricao`, { lng: language });
+  const descLines = doc.splitTextToSize(projectDesc, contentWidth);
+  doc.text(descLines, marginLeft, yPosition);
+  yPosition += descLines.length * 6 + 5;
 
+  // Tecnologias continuam vindo do projetosData
+  doc.setFont('Geocode', 'italic');
+  const tech = project.tecnologias.join(", ");
+  doc.text(`Tecnologia: ${tech}`, marginLeft, yPosition);
+  yPosition += 6;
+
+  doc.textWithLink('Link', marginLeft, yPosition, { url: project.link });
+  yPosition += 12;
+});
 
       const today = new Date();
       const formattedDate = language === 'en' ? today.toLocaleDateString('en-US') : today.toLocaleDateString('pt-BR');

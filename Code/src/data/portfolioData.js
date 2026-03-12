@@ -1,13 +1,18 @@
 export const portfolioData = {
-  name: "Mateus",
+  name: "Mateus Azevedo Araújo",
   about: {
     pt: "Descrição sobre você em português. Conte um pouco sobre sua formação, interesses e experiências acadêmicas ou pessoais.",
     en: "About you in English. Briefly describe your education, interests, and academic or personal experiences."
   },
   skills: [
-    "JavaScript",
-    "CSS",
-    "React"
+  "C",
+  "C++",
+  "Java",
+  "JavaScript",
+  "html",
+  "CSS",
+  "React",
+  "UML"
   ],
   experiences: {
     pt: `Descrição das suas experiências em português. Pode incluir trabalhos acadêmicos, projetos pessoais, competições, hackathons ou outras atividades relevantes.`,

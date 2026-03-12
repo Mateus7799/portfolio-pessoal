@@ -191,14 +191,14 @@
 }
 
 .download-button {
-  width: auto;   /* remove o 100% */
-  flex: 1;       /* divide espaço igualmente */
+  width: auto;  
+  flex: 1;       
 }
 }
 
 .pdf-buttons {
   display: flex;
-  gap: var(--spacing-md); /* espaçamento entre os botões */
+  gap: var(--spacing-md); 
   margin-top: var(--spacing-lg);
   flex-wrap: wrap;
 }
