@@ -1,4 +1,4 @@
-# 🏷️ Portfólio Profissional 
+# 🏷️ Portfólio Pessoal 
 
 > Projeto acadêmico desenvolvido para a disciplina de **Laboratório de Desenvolvimento de Software**, com o objetivo de criar um portfólio web reutilizável.
 
